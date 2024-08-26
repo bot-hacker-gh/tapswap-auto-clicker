@@ -1,6 +1,6 @@
-import puppeteer from "puppeteer";
-import { randomInt } from "crypto";
-import { fetchData, randomSleep } from "./utils";
+const puppeteer = require("puppeteer");
+const { randomInt } = require("crypto");
+const { fetchData, randomSleep } = require("./utils");
 
 const input = process.env.TOKEN;
 
